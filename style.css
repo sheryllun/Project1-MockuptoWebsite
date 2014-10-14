@@ -1,0 +1,112 @@
+body {
+	font-family: "Voltaire";
+}
+
+.header a {
+	text-align: center;
+}
+
+.col-md-8 {
+	text-align: right;
+}
+
+h1 {
+	font: 75px "Voltaire";
+	color: #3e3e3e;
+	text-transform: uppercase;
+}
+
+span {
+	color: #5e5e5e;
+	font-size: 40px;
+}
+
+hr {
+	background-color: #5e5e5e;
+	height: 5px;
+}
+
+.jumbotron {
+	background-color: #6cd0c6;
+	background-image: url("images/butterfly.png");
+	background-size: cover;
+	text-align: left;
+}
+
+.innerbox {
+	display: inline-block;
+	width: 25%;
+	background: rgba(255,255,255,.5);
+	padding: 15px;
+	border-radius: 5px;
+
+}
+
+ul {
+	font-size: 20px;
+}
+
+.bottom {
+	text-align: center;
+}
+
+.col-md-4 {
+	margin-bottom: 20px;
+}
+
+.gallery {
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	border-radius: 5px;
+}
+
+#beach {
+	background-image: url("images/beachbefore.png");
+}
+
+#beach:hover {
+	background-image: url("images/beachafter.png");
+}
+
+#river {
+	background-image: url("images/riverbefore.png");
+}
+
+#river:hover {
+	background-image: url("images/riverafter.png");
+}
+
+#glacier {
+	background-image: url("images/glacierbefore.png");
+}
+
+#glacier:hover {
+	background-image: url("images/glacierafter.png");
+}
+
+h3 {
+	font-family: "Homemade Apple";
+	color: #6cd0c6;
+}
+
+a {
+	font-size: 16px;
+	color: #5e5e5e;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #3fbdb0;
+	text-decoration: none;
+
+}
+
+footer {
+	box-sizing: border-box;
+	text-align: left;
+	padding: 15px 30px;
+	background: #6cd0c6;
+	color: white;
+	font-size: 16px;
+}
