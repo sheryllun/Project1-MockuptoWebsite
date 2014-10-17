@@ -110,3 +110,29 @@ footer {
 	color: white;
 	font-size: 16px;
 }
+
+@media screen and (max-width: 990px) {
+	.head-image {
+		text-align: center;
+	}
+
+	#logo {
+		height: 120px;
+	}
+
+	.col-md-8 {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 4em;
+	}
+
+	span {
+		font-size: 2em;
+	}
+
+	.innerbox {
+		width: 60%;
+	}
+}
