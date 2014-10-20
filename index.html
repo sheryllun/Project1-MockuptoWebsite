@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -11,44 +12,61 @@
 <body>
 	<div class="container">
 		<div class="row header">
-			<div class="col-md-4 head-image"><img id ="logo" src="images/logo.png" alt="logo"></div>
-			<div class="col-md-8">
-				<h1>Sheryl Lun</h1>
-				<span>Front End Web Developer</span>
-			</div>
+			<header>
+				<div class="col-md-4 head-image">
+					<img id ="logo" src="images/logo.png" alt="logo">
+				</div>
+				<div class="col-md-8">
+					<h1>Sheryl Lun</h1>
+					<h2>Front End Web Developer</h2>
+				</div>
+			</header>
 		</div>
 		<hr>
 		<div class="jumbotron">
-			<div class="innerbox">
-				<h2>Welcome</h2>
-				<p>I'm ready to turn your idea into an exciting website and interactive experience for your users.</p>
-				<ul>My skills include:
-					<li>HTML</li>
-					<li>CSS3</li>
-					<li>Javascript</li>
-					<li>JQuery</li>
-				</ul>
-				<p>Take a look around and enjoy!</p>
-			</div>
+			<section>
+				<div class="innerbox">
+					<h2>Welcome</h2>
+					<p>I'm ready to turn your idea into an exciting website and interactive experience for your users.</p>
+					<ul>My skills include:
+						<li>HTML</li>
+						<li>CSS3</li>
+						<li>Javascript</li>
+						<li>JQuery</li>
+					</ul>
+					<p>Take a look around and enjoy!</p>
+				</div>
+			</section>
 		</div>
 		<h2>Featured Work</h2>
 		<div class="row bottom">
 			<div class="col-md-4">
-				<div class="gallery" id="beach" alt="projectphoto"></div>
-				<h3>From the beach...</h3>
-				<a href="#">github.com/sheryllun/link</a>
+				<article>
+					<div class="gallery" id="beach" alt="projectphoto">
+						<img src="images/beachbefore.png" alt="beach project" onmouseover= "this.src='images/beachafter.png'" onmouseout="this.src='images/beachbefore.png'">
+					</div>
+					<h3>From the beach...</h3>
+					<a href="#">github.com/sheryllun/link</a>
+				</article>
 			</div>
 			<div class="col-md-4">
-				<div class="gallery" id="river" alt="projectphoto"></div>
-				<h3>through the river...</h3>
-				<a href="#">github.com/sheryllun/link2</a>
+				<article>
+					<div class="gallery" id="river" alt="projectphoto">
+						<img src="images/riverbefore.png" alt="river project" onmouseover= "this.src='images/riverafter.png'" onmouseout="this.	src='images/riverbefore.png'">
+					</div>
+					<h3>through the river...</h3>
+					<a href="#">github.com/sheryllun/link2</a>
+				</article>
 			</div>
 			<div class="col-md-4">
-				<div class="gallery" id="glacier" alt="projectphoto"></div>
-				<h3>to the glaciers.</h3>
-				<a href="#">github.com/sheryllun/link3</a>
+				<article>
+					<div class="gallery" id="glacier" alt="projectphoto">
+						<img src="images/glacierbefore.png" alt="glacier project" onmouseover= "this.src='images/glacierafter.png'" onmouseout="this.	src='images/glacierbefore.png'">
+					</div>
+					<h3>to the glaciers.</h3>
+					<a href="#">github.com/sheryllun/link3</a>
+				</article>
 			</div>
-		
 		</div>
 	</div>
 	<div class="row">
