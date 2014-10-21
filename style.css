@@ -64,6 +64,7 @@ img {
 	border-radius: 15px;
 }
 
+
 h3 {
 	font-family: "Homemade Apple";
 	color: #6cd0c6;
@@ -78,7 +79,6 @@ a {
 a:hover {
 	color: #3fbdb0;
 	text-decoration: none;
-
 }
 
 footer {
@@ -113,6 +113,10 @@ footer {
 
 	.innerbox {
 		width: 80%;
+	}
+
+	article {
+		padding: 20px 0;
 	}
 }
 
