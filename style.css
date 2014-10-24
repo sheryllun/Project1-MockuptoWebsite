@@ -6,7 +6,7 @@ body {
 	text-align: center;
 }
 
-.col-md-8 {
+.nametitle {
 	text-align: right;
 }
 
@@ -39,7 +39,6 @@ hr {
 	background: rgba(255,255,255,.5);
 	padding: 15px;
 	border-radius: 5px;
-
 }
 
 ul {
@@ -118,8 +117,4 @@ footer {
 	article {
 		padding: 20px 0;
 	}
-}
-
-@-ms-viewport{
-  width: device-width;
 }

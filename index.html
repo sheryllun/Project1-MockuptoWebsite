@@ -13,38 +13,34 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row header">
-			<header>
-				<div class="col-md-4 head-image">
-					<img id ="logo" src="images/logo.png" alt="logo">
-				</div>
-				<div class="col-md-8">
-					<h1>Sheryl Lun</h1>
-					<h2>Front End Web Developer</h2>
-				</div>
-			</header>
-		</div>
+		<header class="row header">
+			<div class="col-md-4 head-image">
+				<img id ="logo" src="images/logo.png" alt="logo">
+			</div>
+			<div class="col-md-8 nametitle">
+				<h1>Sheryl Lun</h1>
+				<h2>Front End Web Developer</h2>
+			</div>
+		</header>
 		<hr>
 		<div class="jumbotron">
-			<section>
-				<div class="innerbox">
-					<h2>Welcome</h2>
-					<p>I'm ready to turn your idea into an exciting website and interactive experience for your users.</p>
-					<ul>My skills include:
-						<li>HTML</li>
-						<li>CSS3</li>
-						<li>Javascript</li>
-						<li>JQuery</li>
-					</ul>
-					<p>Take a look around and enjoy!</p>
-				</div>
+			<section class="innerbox">
+				<h2>Welcome</h2>
+				<p>I'm ready to turn your idea into an exciting website and interactive experience for your users. My skills include:</p>
+				<ul>
+					<li>HTML</li>
+					<li>CSS3</li>
+					<li>Javascript</li>
+					<li>JQuery</li>
+				</ul>
+				<p>Take a look around and enjoy!</p>
 			</section>
 		</div>
 		<h2>Featured Work</h2>
 		<div class="row bottom">
 			<div class="col-md-4">
 				<article>
-					<div class="gallery" id="beach" alt="projectphoto">
+					<div class="gallery" id="beach">
 						<img src="images/beachbefore.png" alt="beach project" class="img-responsive" data-toggle="modal" data-target="#beachModal" onmouseover= "this.src='images/beachafter.png'" onmouseout="this.src='images/beachbefore.png'">
 					</div>
 					<h3>From the beach...</h3>
@@ -53,7 +49,7 @@
 			</div>
 			<div class="col-md-4">
 				<article>
-					<div class="gallery" id="river" alt="projectphoto">
+					<div class="gallery" id="river">
 						<img src="images/riverbefore.png" alt="river project" data-toggle="modal" data-target="#riverModal" onmouseover= "this.src='images/riverafter.png'" onmouseout="this.src='images/riverbefore.png'">
 					</div>
 					<h3>through the river...</h3>
@@ -62,7 +58,7 @@
 			</div>
 			<div class="col-md-4">
 				<article>
-					<div class="gallery" id="glacier" alt="projectphoto">
+					<div class="gallery" id="glacier">
 						<img src="images/glacierbefore.png" alt="glacier project" data-toggle="modal" data-target="#glacierModal" onmouseover= "this.src='images/glacierafter.png'" onmouseout="this.src='images/glacierbefore.png'">
 					</div>
 					<h3>to the glaciers.</h3>
@@ -71,63 +67,61 @@
 			</div>
 		</div>
 	</div>
-	<div class="row">
+	<footer class="row">
 		<div class="col-md-12">
-			<footer>
-				&#169; 2014 Sheryl Lun All Rights Reserved
-			</footer>
+			&#169; 2014 Sheryl Lun All Rights Reserved
 		</div>
-	</div>
+	</footer>
 	<!-- Beach Modal -->
-<div class="modal fade" id="beachModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Beach Project</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/beachafter.png">
-        This is my project about the beach.  I incorporated elements of sand, sun, and surf into the website and responsive elements. 8-bit vinyl chia, kogi swag deep v Etsy. Cornhole Carles street art Brooklyn photo booth fanny pack. Carles try-hard tousled fingerstache. Messenger bag aesthetic pickled McSweeney's drinking vinegar typewriter, gentrify actually flannel put a bird on it Tonx swag organic cliche. Quinoa Williamsburg Echo Park kogi
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- River Modal -->
-<div class="modal fade" id="riverModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">River Project</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/riverafter.png">
-        This is my project about the river.  It is cool and calm and always flowing. Brunch direct trade YOLO, freegan food truck church-key single-origin coffee Helvetica. Church-key Marfa twee Wes Anderson, lo-fi asymmetrical tofu hella selvage single-origin coffee sustainable 8-bit. Vegan leggings hella McSweeney's, normcore Vice typewriter pour-over mumblecore XOXO chambray selvage crucifix quinoa.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Beach Modal -->
-<div class="modal fade" id="glacierModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Glacier Project</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/glacierafter.png">
-        This is my project about the glacier.  The glacier is large and sturdy.  There is much more going on underneath the water than above it. Whatever cornhole dreamcatcher, roof party banh mi food truck chambray tattooed Pitchfork flexitarian. Whatever twee tofu banjo sustainable, chia sriracha mlkshk aesthetic asymmetrical. Sartorial Pitchfork YOLO occupy typewriter, art party sriracha fixie irony Williamsburg pop-up iPhone disrupt Shoreditch. Street art Williamsburg Tumblr kale chips.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+	<div class="modal fade" id="beachModal" tabindex="-1" role="dialog" aria-labelledby="myBeachModal" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title" id="myBeachModal">Beach Project</h4>
+	      </div>
+	      <div class="modal-body">
+	        <img class="img-responsive" src="images/beachafter.png" alt="beachphoto">
+	        <p>This is my project about the beach. I incorporated elements of sand, sun, and surf into the website and responsive elements. 8-bit vinyl chia, kogi swag deep v Etsy. Cornhole Carles street art Brooklyn photo booth fanny pack. Carles try-hard tousled fingerstache. 	Messenger bag aesthetic pickled McSweeney's drinking vinegar typewriter, gentrify actually flannel put a bird on it Tonx swag organic cliche. Quinoa Williamsburg Echo Park kogi</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- River Modal -->
+	<div class="modal fade" id="riverModal" tabindex="-1" role="dialog" aria-labelledby="myRiverModal" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title" id="myRiverModal">River Project</h4>
+	      </div>
+	      <div class="modal-body">
+	        <img class="img-responsive" src="images/riverafter.png" alt="riverphoto">
+	        <p>This is my project about the river.  It is cool and calm and always flowing. Brunch direct trade YOLO, freegan food truck church-key single-origin coffee Helvetica. Church-key Marfa twee Wes Anderson, lo-fi asymmetrical tofu hella selvage single-origin coffee sustainable 8-bit. Vegan leggings hella McSweeney's, normcore Vice typewriter pour-over mumblecore XOXO chambray selvage crucifix quinoa.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Glacier Modal -->
+	<div class="modal fade" id="glacierModal" tabindex="-1" role="dialog" aria-labelledby="myGlacierModal" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title" id="myGlacierModal">Glacier Project</h4>
+	      </div>
+	      <div class="modal-body">
+	        <img class="img-responsive" src="images/glacierafter.png" alt="glacierphoto">
+	        <p>This is my project about the glacier. The glacier is large and sturdy.  There is much more going on underneath the water than above it. Whatever cornhole dreamcatcher, roof party banh mi food truck chambray tattooed Pitchfork flexitarian. Whatever twee tofu banjo sustainable, chia sriracha mlkshk aesthetic asymmetrical. Sartorial Pitchfork YOLO occupy typewriter, art party sriracha fixie irony Williamsburg pop-up iPhone disrupt Shoreditch. Street art Williamsburg Tumblr kale chips.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 </body>
 </html>
